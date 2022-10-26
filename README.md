@@ -1,4 +1,4 @@
-# PCSC-COT
+# PCC-COT
 
 **Sample and Compress Point Cloud via Constrained Optimal Transport**
 
