@@ -6,6 +6,10 @@
 
 ## Introduction
 
+## Results
+* Quantitative results
+
+* Qualitative results
 
 ## Installation
 
