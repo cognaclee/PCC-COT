@@ -15,7 +15,21 @@
 
 * Install the following packages
 
-
+```
+python==3.7
+torch==1.7.1
+torchvision==0.8.2
+CUDA==11.0
+numpy==1.20.3
+open3d==0.9.0.0
+einops==0.3.2
+scikit-learn==1.0.1
+compressai
+ninja
+pickle
+argparse
+tensorboard
+```
 
 ## Data Preparation
 
