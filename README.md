@@ -39,50 +39,6 @@ argparse
 tensorboard
 ```
 
-* Dedails
-
-```shell
-# Create and activate conda environment
-conda create -n pt python==3.7
-conda activate pt
-
-# Install CUDA and PyTorch
-conda install pytorch=1.7.1 torchvision=0.8.2 cudatoolkit=11.0 -c pytorch
-
-# Install Open3D
-conda install matplotlib
-conda install opencv 
-# We recommend using pip to install Open3D because installing Open3D via conda is deprecated
-pip install open3d -U
-
-# Install einops
-pip install einops==0.3.2
-
-# Install scikit-learn
-pip install scikit-learn==1.0.1
-
-# Install compressai
-pip install compressai
-
-# Install ninja
-pip install ninja
-
-# Install tensorboard
-pip install tensorboard
-
-# Method to check whether the installation of Open3D is successful
-python
-import open3d
-
-# Method to solve ImportError: libGL.so.1: cannot open shared object file: No such file or directory
-apt-get update
-apt install libgl1-mesa-glx
-
-# Method to solve cuda11 does not support 8.6 computing power
-export TORCH_CUDA_ARCH_LIST="8.0"
-
-```
-
 ## Data Preparation
 
 First download the [ShapeNetCore](https://shapenet.org/download/shapenetcore) v1 and [SemanticKITTI](http://semantic-kitti.org/dataset.html#download) datasets, and then divide them into non-overlapping blocks.
