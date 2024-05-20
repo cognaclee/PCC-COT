@@ -2,10 +2,10 @@
 
 **Point Cloud Compression via Constrained Optimal Transport**
 
-(Official Pytorch Implemention, the code is modified from [D-PCC](https://github.com/yunhe20/D-PCC))
+(Official Pytorch Implementation, the code is modified from [D-PCC](https://github.com/yunhe20/D-PCC))
 
 ## Introduction
-Point cloud compression (PCC) algorithms are typically designed to achieve the lowest possible distortion at a given low bit rate. However, the perceptual quality is often neglected. To tackle this, we innovatively regard PCC as a constrained optimal transport (COT) problem and proposea novel data-driven method to take the balance of distortion, perception, and the bit rate. Specifically, our method adopts a discriminator to measure the perceptual loss, and a generator to measure the optimal mapping from the original point cloud distribution to the reconstructed distribution.
+Point cloud compression (PCC) algorithms are typically designed to achieve the lowest possible distortion at a given low bit rate. However, the perceptual quality is often neglected. To tackle this, we innovatively regard PCC as a constrained optimal transport (COT) problem and propose a novel data-driven method to take the balance of distortion, perception, and the bit rate. Specifically, our method adopts a discriminator to measure the perceptual loss, and a generator to measure the optimal mapping from the original point cloud distribution to the reconstructed distribution.
 ## Results
 * Quantitative results
 
