@@ -87,3 +87,11 @@ Our code is built upon the following repositories: [D-PCC](https://github.com/yu
 ## Citation
 
 If you find our project is useful, please consider citing:
+```
+@article{li2024point,
+  title={Point Cloud Compression via Constrained Optimal Transport},
+  author={Li, Zezeng and Wang, Weimin and Wang, Ziliang and Lei, Na},
+  journal={arXiv preprint arXiv:2403.08236},
+  year={2024}
+}
+```
