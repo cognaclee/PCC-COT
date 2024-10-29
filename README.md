@@ -88,10 +88,10 @@ Our code is built upon the following repositories: [D-PCC](https://github.com/yu
 
 If you find our project is useful, please consider citing:
 ```
-@article{li2024point,
+@inproceedings{li2024point,
   title={Point Cloud Compression via Constrained Optimal Transport},
   author={Li, Zezeng and Wang, Weimin and Wang, Ziliang and Lei, Na},
-  journal={arXiv preprint arXiv:2403.08236},
+  booktitle={2024 IEEE International Conference on Multimedia and Expo (ICME)},
   year={2024}
 }
 ```
